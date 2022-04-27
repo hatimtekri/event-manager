@@ -1,0 +1,804 @@
+.MainBackground_r {
+    background-color: #f1d1a4;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/background_r.png");
+    background-size: cover;
+}
+
+.MainBackground_r_d {
+    background-color: #f1d1a4;
+    height: 97vh;
+    width: 100vw;
+    background-image: url("../assets/background_d_r.png");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: kanz_al_marjaan;
+    src: url(../assets//fonts/Kanz-al-Marjaan.ttf);
+}
+.ReagiatrationHeading {
+    text-align: start;
+    margin-left: 28px;
+    color: black;
+    font-size: 2rem;
+}
+.divider {
+    height: 1px;
+    background-color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.RegistrationBox {
+    background-color: white;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    width: 90vw;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.photosNavigation
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.photobutton
+{
+    height: 100px;
+     margin: 10px;
+    width: 180px;
+   color: white;
+  font-size: 20px;
+  border:0px;
+  font-weight: 600;
+   background-color: #969b72;
+}
+.RegistrationBox_D {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    width: 70vw;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.RegistrationProfileBox_D {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    width: 18vw;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+.imageStyle {
+    height: 100px;
+    width: 100px;
+    border-radius: 45px;
+    object-fit: fill;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+input::placeholder {
+    color: rgba(150, 155, 114, 0.5);
+    font-size: 20px;
+    text-align: center;
+}
+.LoginError {
+    position: absolute;
+    top: 40%;
+    color: white;
+    background-color: lightcoral;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    border-color: #969b72;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+.RegistrationInputs1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 80vw;
+    height: 30px;
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+
+.RegistrationInputs2 {
+    position: absolute;
+    top: 22%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 80vw;
+    height: 30px;
+    color: maroon;
+
+    font-size: 15px;
+    text-align: center;
+}
+
+.RegistrationInputs3 {
+    position: absolute;
+    top: 29%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 80vw;
+    height: 30px;
+    color: maroon;
+
+    font-size: 20px;
+
+    direction: rtl;
+    text-align: center;
+    font-family: kanz_al_marjaan;
+    letter-spacing: 1px;
+}
+
+.RegistrationInputs4 {
+    position: absolute;
+    top: 36%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 80vw;
+    height: 30px;
+
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+
+.RegistrationInputs5 {
+    position: absolute;
+    top: 43%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 80vw;
+    height: 30px;
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+.logoutMobile {
+    font-size: 18px;
+}
+.RegistrationInputs6label {
+    position: absolute;
+    top: 48%;
+
+    width: 80vw;
+    height: 30px;
+    color: #969b72;
+    font-size: 17px;
+    text-align: start;
+    margin-left: 25px;
+}
+.RegistrationInputs6 {
+    position: absolute;
+    top: 55%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 80vw;
+    height: 30px;
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+.Instructions {
+    position: absolute;
+    top: 75%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    color: #969b72;
+}
+
+.RegistrationInputs1_D {
+    position: absolute;
+    top: 15%;
+
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 30vw;
+    height: 30px;
+
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+
+.RegistrationInputs2_D {
+    position: absolute;
+    top: 15%;
+
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 30vw;
+    height: 30px;
+    color: maroon;
+
+    font-size: 15px;
+    text-align: center;
+}
+.video {
+    position: absolute;
+    top: 55%;
+
+    left: 15%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.videoMobile {
+    position: absolute;
+    top: 25%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.RegistrationInputs3_D {
+    position: absolute;
+    top: 29%;
+
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 30vw;
+    height: 30px;
+    color: maroon;
+    font-size: 20px;
+
+    direction: rtl;
+    text-align: center;
+    font-family: kanz_al_marjaan;
+}
+
+.RegistrationInputs4_D {
+    position: absolute;
+    top: 29%;
+
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 30vw;
+    height: 30px;
+
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+
+.RegistrationInputs5_D {
+    position: absolute;
+    top: 43%;
+
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 30vw;
+    height: 30px;
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+
+.RegistrationInputs6label_D {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+
+    width: 50vw;
+    height: 30px;
+    color: #969b72;
+    font-size: 15px;
+    text-align: start;
+}
+.RegistrationInputs6_D {
+    position: absolute;
+    top: 46%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 50vw;
+    height: 30px;
+    color: maroon;
+    font-size: 15px;
+    text-align: center;
+}
+.Instructions_D {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    color: #969b72;
+}
+
+.LoginLogo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 216px;
+    height: 168px;
+}
+
+.Logout_D {
+    background-color: #969b72;
+    color: white;
+    font-size: 20px;
+    width: 210px;
+
+    height: 35px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-color: transparent;
+    border-radius: 10px;
+}
+.header {
+    background-color: #969b72;
+    height: 45px;
+    width: 100vw;
+    background-image: url("../assets//headerPattern.png");
+    /* background-size: contain; */
+    background-size: 120px;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+.alreadyRegistered_d {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 70vw;
+    height: 30px;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+.alreadyRegistered {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border-color: #969b72;
+    width: 75vw;
+    height: 30px;
+    color: red;
+    font-size: 19px;
+    text-align: center;
+}
+.headerMobile {
+    background-color: #969b72;
+    height: 45px;
+    width: 100vw;
+    background-image: url("../assets//headerPattern.png");
+    /* background-size: contain; */
+    background-size: 120px;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+/* .lowerBar
+{
+background-color: #534741;
+height: 2px;
+position: absolute;
+top: 4%;
+width: 100vw;
+}
+.upperBar
+{
+    background-color: #534741;
+    height: 2px;
+    position: absolute;
+top: -7px;
+width: 100vw;
+} */
+.footer {
+    background-color: #969b72;
+    height: 35px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+.footerMobile {
+    background-color: #969b72;
+    height: 35px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+/* .footerUpperBar
+{
+    background-color: #534741;
+    height: 2px;
+    position: absolute;
+top: 80%px;
+width: 100vw;
+} */
+
+.Registration_D {
+    background-color: #969b72;
+    color: white;
+    font-size: 20px;
+
+    width: 210px;
+    height: 35px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.LoginButton {
+    background-color: #969b72;
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    top: 100%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-color: transparent;
+    border-radius: 30px;
+}
+.LoginButton_D {
+    background-color: #969b72;
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    height: 50px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-color: transparent;
+    border-radius: 30px;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pass {
+    position: absolute;
+    top: 55%;
+
+    left: 65%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.passMobile
+{
+    position: absolute;
+    top: 55%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.sticker {
+    background-color: #f8f3e6;
+    height: 55vh;
+    width: 45vw;
+    min-width: 550px;
+    max-height: 400px;
+}
+.stickerMobile
+{
+    background-color: #f8f3e6;
+    height: 27vh;
+    width: 88vw;
+    min-width: 300px;
+}
+.HBText {
+    color: #bd2c3d;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+.HBTextMobile {
+    color: #bd2c3d;
+    font-size: 10px;
+    font-weight: 500;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+.suratText {
+    color: #bd7e11;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+.suratTextMobile {
+    color: #bd7e11;
+    font-size: 10px;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+}
+
+.SeatText {
+    color: #bd2c3d;
+    font-size: 110px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    text-shadow: 4px 4px #efd4bc;
+}
+.SeatTextMobile {
+    color: #bd2c3d;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    text-shadow: 4px 4px #efd4bc;
+}
+.BlockText
+{
+    color: #bd2c3d;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    text-shadow: 4px 4px #efd4bc;
+}
+.BlockTextMobile
+{
+    color: #bd2c3d;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    text-shadow: 4px 4px #efd4bc;
+}
+.burhaniText {
+    color: #bd7e11;
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    top: 60%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.burhaniTextMobile {
+    color: #bd7e11;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 45%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.itsIdText {
+    color: #1d1d1b;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+}
+.itsIdTextMobile {
+    color: #1d1d1b;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 56%;
+    left: 80%;
+}
+.nameText {
+    color: #1d1d1b;
+    font-size: 15px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+.nameTextMobile {
+    color: #1d1d1b;
+    font-size: 15px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 68%;
+    left: 3%;
+}
+.design {
+    background-image: url("../assets/passdesign_red.png");
+    background-repeat: repeat-x;
+    height: 50px;
+    width: 45vw;
+    background-size: 60px;
+    background-repeat: repeat-x;
+    background-position: center;
+    position: absolute;
+    top: 85%;
+    min-width: 550px;
+}
+.designMobile {
+    background-image: url("../assets/passdesign_red.png");
+    background-repeat: repeat-x;
+    height: 30px;
+    width: 88vw;
+    background-size: 60px;
+    background-repeat: repeat-x;
+    background-position: center;
+    position: absolute;
+    top: 80%;
+    min-width: 300px;
+}
+
+.gateText
+{
+    color: #bd7e11;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 70%;
+
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.gateTextMobile
+{
+    color: #bd7e11;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 58%;
+
+    left: 40%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    
+    background-image: url("../assets/passlogo_red.png");
+    background-repeat: no-repeat;
+    background-size: 110px;
+    position: absolute;
+    height: 50vh;
+    width: 25vw;
+    top: 10%;
+    left: 75%;
+}
+.logoMobile {
+    
+    background-image: url("../assets/passlogo_red.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 15vh;
+    width: 15vw;
+    top: 10%;
+    left: 80%;
+}
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
